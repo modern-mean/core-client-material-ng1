@@ -10,10 +10,10 @@ let clientConfig = {
       LOGGING: {
         //https://docs.angularjs.org/api/ng/service/$log
         levels: {
-          debug: process.env.MM_CORE_ANGULAR_DEBUG || 'false',
-          info: process.env.MM_CORE_ANGULAR_INFO || 'true',
-          warn: process.env.MM_CORE_ANGULAR_WARN || 'true',
-          error: process.env.MM_CORE_ANGULAR_ERROR || 'true'
+          debug: process.env.MM_CORE_CLIENT_ANGULAR_DEBUG || 'false',
+          info: process.env.MM_CORE_CLIENT_ANGULAR_INFO || 'true',
+          warn: process.env.MM_CORE_CLIENT_ANGULAR_WARN || 'true',
+          error: process.env.MM_CORE_CLIENT_ANGULAR_ERROR || 'true'
         }
       },
     },
